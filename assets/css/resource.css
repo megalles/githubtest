@@ -2060,6 +2060,16 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	p {
+		text-align: left;
+	}
+
+	#three h4 {
+		text-align: left;
+	}
+
+
+
 /* Form */
 
 	form {
@@ -2930,18 +2940,6 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/mustard_rain.png");
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
-		overflow: hidden;
-		position: relative;
-		text-align: center;
-	}
-
-	#header2 {
-		padding: 9em 0 9em 0 ;
-		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
 		background-image: url("images/resource_page_rain.png");
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
@@ -2949,6 +2947,8 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 	}
+
+
 
 		#header a {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
@@ -3140,7 +3140,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/sand_mustard_rain.png");
+		background-image: url("images/resource_page_rain.png");
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
@@ -3160,10 +3160,6 @@ input, select, textarea {
 
 		#footer header p {
 			color: #ffffff;
-		}
-
-		#footer .actions .special {
-			padding-top: 1.5em;
 		}
 
 		#footer header.major:after {
@@ -3238,7 +3234,7 @@ input, select, textarea {
 			font-size: 0.8em;
 			list-style: none;
 			margin: 2em 0 0 0;
-			padding-bottom: 3em;
+			padding: 0;
 		}
 
 			#footer .copyright li {
