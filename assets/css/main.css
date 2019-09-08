@@ -3101,7 +3101,7 @@ input, select, textarea {
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: url("images/sand_mustard_rain.png");
+			background-image: url("images/mustard_rain.png");
 			content: '';
 			height: 10%;
 			left: 0;
