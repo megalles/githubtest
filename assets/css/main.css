@@ -2005,9 +2005,15 @@ input, select, textarea {
 
 /* Section/Article */
 
+	
+
 	section.special, article.special {
 		text-align: center;
 	}
+
+	#four section.special, article.special {
+		text-align: center;
+	}	
 
 	header p {
 		color: #999;
@@ -2407,6 +2413,12 @@ input, select, textarea {
 		ol li {
 			padding-left: 0.25em;
 		}
+
+
+	#four ul {
+		text-align: left;
+		padding-left: 8em;
+	}
 
 	ul {
 		list-style: disc;
